@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The barcode data is not correctly parsed, leading to unexpected behavior or crashes. The issue seems to stem from an incompatibility between the format of the barcode data returned by the camera and the expected format by the application logic.
